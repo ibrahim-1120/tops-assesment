@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="icon" href="logo1.png" type="icon">
+    <link rel="stylesheet" href="registration_form.css">
+</head>
+
+<body>
+    <div style="text-align: center;">
+        <h1> Student Restration Form</h1>
+    </div>
+    <div class="main">
+        <form action="#" method="post" name="">
+            <!-- first name -->
+            <label for=""> First name : </label>
+            <input type="text" name="username" id="uname" placeholder="Enter your first name" required minlength="3"
+                maxlength="6">
+
+            <br><br>
+            <!-- last name -->
+            <label for="">Last name : </label>
+            <input type="text" name="lastname" id="lname" placeholder="Enter  your last name" required minlength="9"
+                maxlength="10">
+
+            <br><br>
+            <!-- email -->
+            <label for="">Email : </label>
+            <input type="text" name="email" id="email" placeholder="It should be contain @" required>
+
+            <br><br>
+            <!-- mobil -->
+            <label for="">Mobil : </label>
+            <input type="tel" name="mobil" id="mobil" placeholder="Only 10 digit are allowe" required minlength="10">
+
+            <br><br>
+            <!-- gender -->
+            <label for="">Gender : </label>
+            <input type="radio" name="Gender" id="Gender">
+            <label for="">Male</label>
+            <input type="radio" name="Gender" id="Gender">
+            <label for="">Female</label>
+
+            <br><br>
+            <!-- date of birth -->
+            <label for="Birtday">Date Of Birtday</label>
+            <input type="date" id="Birtday" value="Birtday">
+
+            <br><br>
+            <!-- address -->
+
+            <label for="">Address : </label>
+            <textarea name="add" id="" cols="40" rows="8"></textarea>
+            <br><br>
+            <!-- city -->
+
+            <label for=""> City : </label>
+            <input type="text" name="city" id="city" placeholder="">
+            <br><br>
+            <!-- area pin -->
+
+            <label for="">Area pin : </label>
+            <input type="pin" name="pin" id="pin" placeholder="" required minlength="6">
+
+            <br><br>
+
+            <!-- state -->
+            <label for=""> State : </label>
+            <input type="text" name="state" id="state" placeholder="">
+            <br><br>
+            <!-- qualification -->
+            <label for="qua">Qualification:</label>
+
+            <select name="qua" id="qua">
+                <option value="select qualification">Select Qualification</option>
+                <option value="10th">10th</option>
+                <option value="12th">12th</option>
+                <option value="graduate">graduate</option>
+            </select>
+            <br><br>
+
+            <!-- specilization -->
+
+            <label> Secilization</label>
+            <br>
+            <input type="checkbox" id="check1" name="check1" value="reading">
+            <label for="vehicle1"> Reading</label><br>
+            <input type="checkbox" id="check2" name="check" value="traveling">
+            <label for="vehicle2"> Traveling</label><br>
+            <input type="checkbox" id="check3" name="check3" value="exploring">
+            <label for="vehicle3"> Exploring</label>
+
+            <br><br>
+
+
+
+            <button type="submit">Submit</button>
+
+
+
+
+    </div>
+</body>
+
+</html>
